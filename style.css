@@ -135,12 +135,13 @@ p {
     display: block;
     margin: 0 auto;
     padding: 100px;
-    width: 45%;
+    width: 50%;
 }
 
 #section1 .s1-image {
-    height: 48%;
-    width: 48%;
+    float: left;
+    height: 40%;
+    width: 40%;
 }
 
 #section1 .text-container {
@@ -192,4 +193,54 @@ p {
 
 #section2 .text {
     font-weight: 150;
+}
+
+#section3 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#section3 .top {
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+}
+
+#section3 .bottom {
+    height: 300px;
+    margin: 0 auto;
+    width: 40%;
+}
+
+#section3 h2 {
+    color: rgb(83, 88, 98);
+    font-weight: 100;
+}
+
+#section3 p {
+    color: rgb(135, 145, 156);
+}
+
+#section3 a {
+    color: rgb(208, 74, 73);
+}
+
+.col {
+    float: left;
+    text-align: middle;
+    width: 30%;
+}
+  
+.col-3 {
+    float: left;
+    width: 30%;
+}
+  
+.col-middle {
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: middle;
+    width: 30%;
 }

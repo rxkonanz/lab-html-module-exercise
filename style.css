@@ -15,8 +15,9 @@ nav a {
 }
 
 header {
-    background-color: rgb(32, 101, 136);
-    height: 500px;
+    background-image: url("images/city-scape.svg");
+    background-size: cover;
+    height: 600px;
 }
 
 a {
@@ -71,11 +72,15 @@ p {
 .action-links {
     color: white;
     margin: 0 10px 0 0;
-    padding-top: 11px;
+    padding-top: 8px;
     vertical-align: middle;
 }
 
-.bear-logo, .action-links {
+.action-links {
+    margin-left: 20px;
+}
+
+.bear-logo {
     float: right;
 }
 
@@ -98,7 +103,7 @@ p {
     background-color: rgb(31, 82, 111);
     border: none;
     height: 35px;
-    width: 65%;
+    width: 78%;
     padding-left: 10px;
 }
 .search-button {
@@ -110,9 +115,8 @@ p {
 }
 
 .bottom-header {
-    height: 300px;
-    margin: 0 auto;
-    width: 30%;
+    margin-left: 25%;
+    width: 400px;
 }
 
 .header-image { 
@@ -128,20 +132,21 @@ p {
 
 #section1 {
     background-color: rgb(39, 53, 71);
-    height: 500px;
+    height: 550px;
 }
 
 #section1 .container{
     display: block;
     margin: 0 auto;
     padding: 100px;
-    width: 50%;
+    width: 1088px;
 }
 
 #section1 .s1-image {
     float: left;
-    height: 40%;
-    width: 40%;
+    height: 350.73px;
+    margin: 0 auto;
+    width: 588.79px;
 }
 
 #section1 .text-container {
@@ -196,6 +201,7 @@ p {
 }
 
 #section3 {
+    height: 500px;
     margin-top: 50px;
     text-align: center;
 }
@@ -210,7 +216,7 @@ p {
 #section3 .bottom {
     height: 300px;
     margin: 0 auto;
-    width: 40%;
+    width: 50%;
 }
 
 #section3 h2 {
